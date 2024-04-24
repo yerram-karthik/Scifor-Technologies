@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            overflow-y: scroll; /* Enable vertical scrolling */
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Main content styles */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Added for animations */
+        }
+
+        .container h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .container p {
+            line-height: 1.5;
+            color: #666;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+        /* Animation styles */
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .container {
+            animation: slideIn 0.5s ease-in-out forwards;
+        }
+
+        /* Download CV button styles */
+        .download-cv {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .download-cv a {
+            background-color: #28a745;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .download-cv a:hover {
+            background-color: #218838;
+        }
+
+        /* Project description styles */
+        .project-description {
+            margin-top: 10px;
+            font-style: italic;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Projects</h1>
+    </header>
+
+    <nav>
+        <a href="/">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/projects">Projects</a>
+    </nav>
+
+    <div class="container">
+        <h2>My Projects</h2>
+        <ol>
+            <li>Voice Assistant Using Python
+                <p class="project-description">A Python-based voice-controlled assistant capable of performing various tasks and providing responses to user queries.</p>
+            </li>
+            <li>Pizza ChatBot Using AWS Services
+                <p class="project-description">A chatbot deployed on Amazon Web Services (AWS) that assists users in ordering pizzas and provides information about available toppings and deals.</p>
+            </li>
+            <li>Loan Eligibility Using Machine Learning
+                <p class="project-description">An application that predicts loan eligibility for individuals based on their financial and personal information, leveraging machine learning algorithms.</p>
+            </li>
+            <li>Object Detection Using OpenCV and DNN
+                <p class="project-description">An object detection system implemented using OpenCV (Open Source Computer Vision Library) and deep neural networks (DNN) to identify and classify objects within images or video streams.</p>
+            </li>
+        </ol>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Yerram Karthik. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
