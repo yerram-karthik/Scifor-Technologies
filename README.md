@@ -3,7 +3,8 @@ Use JSON and access data using class object, you can access through request modu
 
 API Link: https://api.quotable.io/random
 
-# Output:
+# Output Screenshots:
+# Quotes
 ![Screenshot (214)](https://github.com/yerram-karthik/Scifor-Technologies/assets/136573431/ac923217-b146-48ff-ab2d-e31499f43fe1)
 
 # Jewellery Shop
